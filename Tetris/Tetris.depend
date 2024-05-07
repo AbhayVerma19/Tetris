@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1714935793 source:d:\tetris\main.cpp
+	<raylib.h>
+	"game.h"
+	"colors.h"
+	<iostream>
+
+1714924945 d:\tetris\grid.h
+	<vector>
+	<raylib.h>
+
+1714924896 source:d:\tetris\grid.cpp
+	"grid.h"
+	<iostream>
+	"colors.h"
+
+1714905199 source:d:\tetris\colors.cpp
+	"colors.h"
+
+1714905200 d:\tetris\colors.h
+	<raylib.h>
+	<vector>
+
+1714904950 source:d:\tetris\position.cpp
+	"position.h"
+
+1714904953 d:\tetris\position.h
+
+1714924852 d:\tetris\blocks.cpp
+	"block.h"
+	"position.h"
+
+1714924847 d:\tetris\block.h
+	<vector>
+	<map>
+	"position.h"
+	"colors.h"
+
+1714928641 source:d:\tetris\block.cpp
+	"block.h"
+
+1714929478 d:\tetris\game.h
+	"grid.h"
+	"blocks.cpp"
+
+1714929478 source:d:\tetris\game.cpp
+	"game.h"
+	<random>
+
